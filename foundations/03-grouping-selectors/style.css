@@ -1,0 +1,22 @@
+
+
+/* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback  */
+
+.bg-black,
+.bg-yellow {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
+}
+
+/* **The first element**: a black background and white text */
+
+.bg-black {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+
+/* **The second element**: a yellow background */
+
+.bg-yellow {
+    background-color: #ffff00;
+}
